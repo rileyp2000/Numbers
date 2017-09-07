@@ -5,7 +5,7 @@
  */
 
 /**
- * @author rileyp
+ * @author Patrick Riley
  *
  */
 import java.util.Scanner;
@@ -18,6 +18,7 @@ public class Numbers {
 	 * @method: main
 	 */
 	public static void main(String[] args) {
+		//this adds a Scanner and then asks for 2 numbers
 		Scanner kybd = new Scanner(System.in);
 		System.out.print("Enter a number: ");
 		int n1 = kybd.nextInt();
@@ -27,7 +28,15 @@ public class Numbers {
 		kybd.close();
 
 	}
-	
+	/**
+	 * 
+	 * @param n1
+	 * @param n2
+	 * @return sum of n1 and n2
+	 * @user: rileyp
+	 * @date: Sep 7, 2017
+	 * @method: add
+	 */
 	public static int add(int n1, int n2) {
 		return n1 + n2;
 		
