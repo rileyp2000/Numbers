@@ -28,7 +28,7 @@ public class Numbers {
 		kybd.close();
 
 	}
-	/**
+	/***
 	 * 
 	 * @param n1
 	 * @param n2
