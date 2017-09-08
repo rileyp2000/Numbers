@@ -24,7 +24,7 @@ public class Numbers {
 		int n1 = kybd.nextInt();
 		System.out.println("Enter another number: ");
 		int n2 = kybd.nextInt();
-		System.out.printf("The addition of %d and %d is %d\n", n1, n2, add(n1,n2));
+		System.out.printf("Braden added %d and %d and got %d\n", n1, n2, add(n1,n2));
 		kybd.close();
 
 	}
