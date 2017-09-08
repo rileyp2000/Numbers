@@ -28,6 +28,7 @@ public class Numbers {
 		kybd.close();
 
 	}
+	
 	/**
 	 * 
 	 * @param n1
@@ -40,6 +41,47 @@ public class Numbers {
 	public static int add(int n1, int n2) {
 		return n1 + n2;
 		
+	}
+	
+	/**
+	 * 
+	 * @param n1
+	 * @param n2
+	 * @return difference of n1 and n2
+	 * @user: rileyp
+	 * @date: Sep 8, 2017
+	 * @method: difference
+	 */
+	public static int difference(int n1, int n2) {
+		return n1-n2;
+		
+	}
+	
+	/**
+	 * 
+	 * @param n1
+	 * @param n2
+	 * @return the product of n1 and n2
+	 * @user: rileyp
+	 * @date: Sep 8, 2017
+	 * @method: product
+	 */
+	public static int product(int n1, int n2) {
+		return n1*n2;
+	}
+	
+	/**
+	 * 
+	 * @param n1
+	 * @param n2
+	 * @return the quotient of n1 and n2
+	 * @user: rileyp
+	 * @date: Sep 8, 2017
+	 * @method: quotient
+	 */
+	public static double quotient(int n1, int n2) {
+		return (n1+.0)/n2;
+	}
 	}
 
 }
